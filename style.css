@@ -37,4 +37,7 @@
     z-index: 1;
     position: absolute;
   }
-  
+  #mychart{
+    max-width: 500px;
+    max-height: 500px;
+  }
