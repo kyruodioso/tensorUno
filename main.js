@@ -73,7 +73,7 @@ function predictWebcam() {
     }
     children.splice(0);
     
-    // Se recorren las redicciones y se dibujan en la vista si alcanzan nivel alto de confianza;
+    // Se recorren las predicciones y se dibujan en la vista si alcanzan nivel alto de confianza;
     for (let n = 0; n < predictions.length; n++) {
       // Si el nivel de confianza sobrepasa el 66% el objeto es detectado y se remarca en el stream mostrando los datos
       if (predictions[n].score > 0.66) {
