@@ -30,7 +30,14 @@ function enableCam(event) {
     
     // mediante getUsermedia se obtiene el video (no el audio)
     const constraints = {
-      video: true,
+      video: {
+        width:{
+          ideal:1920
+        },
+        height:{
+          ideal:1080
+        }
+      },
       audio:false
     };
   
